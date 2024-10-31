@@ -22,7 +22,7 @@ const HeroSection = () => {
                 <img
                     src={vector}
                     alt='vector'
-                    className='absolute right-0 transform translate-x-[20%] -translate-y-[20%] animate-spin z-0'
+                    className='absolute right-0 transform  animate-spin-slow z-0'
                     style={{ maxWidth: '100%', height: 'auto' }}
                 />
                 <div className='flex flex-col w-[50%] gap-4 z-10'>
