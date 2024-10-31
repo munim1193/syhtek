@@ -1,20 +1,23 @@
 import React from 'react';
 import iphone from '../Assects/Iphone.png';
 import footer from '../Assects/footer.png';
-import mobbg from '../Assects/mobbg.png';
+import dots from '../Assects/dots.png'
 
 const Mobilestock = () => {
     return (
         <div className='flex flex-col w-full items-center justify-center gap-10'>
+            <div>
+                <img src={dots} alt='qwerty' className='mr-[100px] mt-[-300px] w-[120px] absolute right-0 transform  animate-spin-custom z-10 left-0' />
+            </div>
             <div className='text-[48px] font-bold'>
-                <span className='relative inline-block'>
-                    <span
-                        className='absolute inset-0 -z-10 bg-cover bg- bg-center opacity-80 rounded-md w-[180px] h-[94px] ml-[-10px]'
-                        style={{ backgroundImage: `url(${mobbg})` }}
-                    ></span>
-                    <span className='text-white'>Mobile</span>
+                <span className='text-white bg-gradient-to-b from-[#7CC140] to-[#388FCB] rounded-[50%] p-4 '>
+                    Mobile
                 </span>
+
                 <span className='text-[#388FCB]'> Stock</span>
+            </div>
+            <div>
+                <img src={dots} alt='qwerty' className='mr-[100px] mt-[-100px] w-[120px] absolute right-0 transform  animate-spin-custom z-10 left-0' />
             </div>
             <div className='text-[20px] font-medium'>
                 We stay up to date with the latest technology trends and offer innovative solutions that help you stay ahead in competition.

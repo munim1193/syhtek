@@ -21,7 +21,7 @@ function App() {
         </div>
       </div>
       <div className='bg-[#96CBEA] pt-[15px] rounded-[30px] top-[35px] absolute p-14 w-full'></div>
-        <div className='flex flex-col items-center absolute top-[48px] overflow-hidden'>
+        <div className='flex flex-col items-center absolute top-[48px] overflow-hidden bg-gradient-to-b from-[#EEF9FF] to-white rounded-[20px]'>
           <Navbar />
           <HeroSection />
           <Mobilestock />

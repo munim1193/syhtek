@@ -11,6 +11,7 @@ import sicon3 from '../Assects/pi3.png'
 import hbimg from '../Assects/hbimg.png'
 import '../App.css'
 import vector from '../Assects/Vector.png'
+import svector from '../Assects/Vector (2).png'
 
 
 
@@ -22,17 +23,25 @@ const HeroSection = () => {
                 <img
                     src={vector}
                     alt='vector'
-                    className='absolute right-0 transform  animate-spin-slow z-0'
+                    className='absolute right-0 transform  animate-spin-custom z-0'
                     style={{ maxWidth: '100%', height: 'auto' }}
                 />
+                <div>
+                    <img src={svector} alt='qwerty' className='mr-[200px] mt-[-200px] w-[450px] absolute right-0 transform  animate-spin-custom z-10'/>
+                    <img src={svector} alt='qwerty' className='mr-[200px] mt-[-200px] w-[450px] absolute right-0 transform  animate-spin-custom-anti z-10'/>
+                </div>
+                <div>
+                    <img src={svector} alt='qwerty' className='mr-[100px] mt-[-300px] w-[120px] absolute right-0 transform  animate-spin-custom z-10'/>
+                    <img src={svector} alt='qwerty' className='mr-[100px] mt-[-300px] w-[120px] absolute right-0 transform  animate-spin-custom-anti z-10'/>
+                </div>
                 <div className='flex flex-col w-[50%] gap-4 z-10'>
                     <div className='text-[48px] font-bold'>Largest <span className='text-[#388FCB]'>Wholesalers</span><br /> of <span className='text-[#388FCB]'>Mobile Phones</span></div>
                     <div className='text-[16px] font-normal'>Supply that meets Demand. Get the best wholesale prices of used and refurbished Mobile Stocks</div>
                     <div className='text-[18px] font-normal text-[#388FCB]'>Learn More →</div>
                     <div className='flex w-full justify-between'>
                         <input placeholder='✉ Email' className='p-[10px] rounded-[25px] w-[50%] border-solid border-2' />
-                        <button className='bg-[#7CC140] py-[15px] px-[25px] text-white rounded-[25px]'>Subscribe →</button>
-                        <button className='bg-[#388FCB] py-[15px] px-[25px] text-white rounded-[25px]'>↓ Stock List</button>
+                        <button className='bg-[#7CC140] hover:bg-[#44741b] py-[15px] px-[25px] text-white rounded-[25px]'>Subscribe →</button>
+                        <button className='bg-[#388FCB]  hover:bg-[#205375] py-[15px] px-[25px] text-white rounded-[25px]'>↓ Stock List</button>
                     </div>
                     <div className='flex flex-row w-full gap-4'>
                         <div className='flex flex-row gap-[6px]'>

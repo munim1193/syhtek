@@ -7,8 +7,18 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'spin-slow': 'spin 3s linear infinite',
-        'spin-fast': 'spin 0.5s linear infinite',
+        'spin-custom': 'spin-custom 30s linear infinite',
+        'spin-custom-anti': 'spin-custom-anti 30s linear infinite',
+      },
+      keyframes: {
+        'spin-custom': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+        'spin-custom-anti': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(-360deg)' },
+        },
       },
     },
   },
